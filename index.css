@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #00000000;
+    background-image: url('https://i.pinimg.com/originals/e7/50/38/e75038ae16be9d330cb1f3563833647e.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 700px;
+    min-height: 700px;
+}
+
+.container {
+    width: 250px;
+    margin: 40px;
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #fffdfd8a;
+    border-radius: 40px;
+    box-sizing: content-box;
+    max-width: 1000px;
+}
+
+.login {
+    text-align: center;
+    font-size: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button[name="registrar"] {
+    background-color: #ff9100;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    cursor: pointer;
+}
